@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Xavier-Xo/XAvieBLogs/issues"
   },
-  "homepage": "https://github.com/Xavier-Xo/XAvieBLogs#readme"
+  "homepage": "https://github.com/Xavier-Xo/XAvieBLogs#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
 }
