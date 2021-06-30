@@ -1,5 +1,5 @@
 ---
-title: Fasion Blog
+title: Fashion Blog
 description: A Blog on Fashion
 author: Rashmi
 date: 2021-06-30T05:56:48.187Z
