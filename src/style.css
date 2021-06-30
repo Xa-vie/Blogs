@@ -1,3 +1,4 @@
+
 :root {
   --fs-300: 0.9375rem;
   --fs-400: 1.0625rem;
@@ -22,7 +23,9 @@
   --clr-neutral-400: hsla(0, 0%, 40%, 1);
   --clr-neutral-500: hsla(0, 0%, 60%, 1);
   --clr-neutral-900: hsla(0, 0%, 10%, 1);
+  
 }
+
 
 @media (min-width: 35em) {
   :root {
@@ -89,6 +92,7 @@ img,
 picture {
   max-width: 100%;
   display: block;
+  border-radius: 1%;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -196,6 +200,8 @@ section,
   Header
   /////////////////////// */
 
+
+
 .page-header {
   padding: 2em 0;
 }
@@ -203,16 +209,21 @@ section,
 .page-header__content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-list {
   margin: 0;
   padding: 0;
+  font-family: 'Kaushan Script';
+  font-size: 1.6rem;
+  
 }
 
 .nav-list a {
   color: var(--clr-neutral-900);
   text-decoration: none;
+  color: #606060;
 }
 
 .nav-list a:focus,
@@ -249,6 +260,8 @@ section,
   width: 100%;
   /* max-height: max(15rem, 40vh); */
   object-fit: cover;
+  border-radius: 3%;
+  aspect-ratio: 4/3;
 }
 
 @media (min-width: 45em) {
@@ -298,8 +311,9 @@ section,
 .snippet__image {
   grid-area: image;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9  ;
   object-fit: cover;
+  border-radius: 2%;
 }
 .snippet__title {
   grid-area: title;
